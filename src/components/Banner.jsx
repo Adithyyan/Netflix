@@ -26,7 +26,7 @@ function Banner({fetchURL}){
                 <h1>{movie?.name}</h1>
                 <button className='btn btn-danger'>Play <i className="fa-soli fa-play"></i></button>
                 <button style={{marginLeft:'5px'}} className='btn btn-outline-light'>More info <i  className="fa-solid fa-caret-down"></i></button>
-                <h2>{movie?.overview}.slice(0,200)...</h2>
+                <h2>{movie?.overview?.slice(0,200)}...</h2>
             </div>
         </div>
     )
